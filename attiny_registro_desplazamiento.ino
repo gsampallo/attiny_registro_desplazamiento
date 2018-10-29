@@ -1,7 +1,7 @@
 int pindata = 2; 
 int pinclock = 0;
 int pinlatch = 1;
-
+byte data = 0;
 void setup()
 {
   //Se establece que los pines data, clock, latch seran salidas del arduino 
